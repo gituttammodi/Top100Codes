@@ -5,4 +5,4 @@
  * @author modiu
  *
  */
-package MyPackage;
+package myPackage;
