@@ -35,9 +35,7 @@ public class Binary_2Octal {
 			
 			ans=ans+num;
 			num=0;
-			
-			
-			
+
 			
 		}
 			int myans=Integer.parseInt(ans);
@@ -47,21 +45,8 @@ public class Binary_2Octal {
 				
 				int rem=myans%10;
 				myans=myans/10;
-				res=res*10+rem;
-				
-				
-			}
-			
-			
-			
-//			counter++;
-//			int d=0;
-//			int d1=n%10;
-//			d = (int) (d + Math.pow(2, c));
-//			n=n/10;
-//			c++;
-			
-			
+				res=res*10+rem;	
+			}	
 			
 		
 		System.out.println("Decimal: "+res);
