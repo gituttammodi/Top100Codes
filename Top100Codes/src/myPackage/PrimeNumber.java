@@ -9,15 +9,10 @@ public class PrimeNumber {
 		System.out.println("Enter the Number");
 		int n=sc.nextInt();
 		
-		if (n==1 || n==2) 
+		if (n==2 || n==3) 
 			System.out.println("prime.");
 		else {
-			
-		
-					
-		
-		
-		
+	
 		for (int j = 2; j < n; j++) {
 			if (n%j == 0 ) {
 				System.out.println("Not prime.");
